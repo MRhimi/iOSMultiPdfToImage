@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE576266289ECC1500F392B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE576265289ECC1500F392B5 /* AppDelegate.swift */; };
+		FE576268289ECC1500F392B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE576267289ECC1500F392B5 /* SceneDelegate.swift */; };
+		FE57626A289ECC1500F392B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE576269289ECC1500F392B5 /* ViewController.swift */; };
+		FE57626D289ECC1500F392B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE57626B289ECC1500F392B5 /* Main.storyboard */; };
+		FE576270289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE57626E289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodeld */; };
+		FE576272289ECC1800F392B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE576271289ECC1800F392B5 /* Assets.xcassets */; };
+		FE576275289ECC1800F392B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE576273289ECC1800F392B5 /* LaunchScreen.storyboard */; };
+		FE576280289ECC1800F392B5 /* iOSMultiPdfToImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE57627F289ECC1800F392B5 /* iOSMultiPdfToImageTests.swift */; };
+		FE57628A289ECC1800F392B5 /* iOSMultiPdfToImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE576289289ECC1800F392B5 /* iOSMultiPdfToImageUITests.swift */; };
+		FE57628C289ECC1800F392B5 /* iOSMultiPdfToImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE57628B289ECC1800F392B5 /* iOSMultiPdfToImageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE57627C289ECC1800F392B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE57625A289ECC1500F392B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE576261289ECC1500F392B5;
+			remoteInfo = iOSMultiPdfToImage;
+		};
+		FE576286289ECC1800F392B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE57625A289ECC1500F392B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE576261289ECC1500F392B5;
+			remoteInfo = iOSMultiPdfToImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE576262289ECC1500F392B5 /* iOSMultiPdfToImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMultiPdfToImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE576265289ECC1500F392B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE576267289ECC1500F392B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE576269289ECC1500F392B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE57626C289ECC1500F392B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE57626F289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSMultiPdfToImage.xcdatamodel; sourceTree = "<group>"; };
+		FE576271289ECC1800F392B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE576274289ECC1800F392B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE576276289ECC1800F392B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE57627B289ECC1800F392B5 /* iOSMultiPdfToImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMultiPdfToImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE57627F289ECC1800F392B5 /* iOSMultiPdfToImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMultiPdfToImageTests.swift; sourceTree = "<group>"; };
+		FE576285289ECC1800F392B5 /* iOSMultiPdfToImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMultiPdfToImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE576289289ECC1800F392B5 /* iOSMultiPdfToImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMultiPdfToImageUITests.swift; sourceTree = "<group>"; };
+		FE57628B289ECC1800F392B5 /* iOSMultiPdfToImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMultiPdfToImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE57625F289ECC1500F392B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE576278289ECC1800F392B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE576282289ECC1800F392B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE576259289ECC1500F392B5 = {
+			isa = PBXGroup;
+			children = (
+				FE576264289ECC1500F392B5 /* iOSMultiPdfToImage */,
+				FE57627E289ECC1800F392B5 /* iOSMultiPdfToImageTests */,
+				FE576288289ECC1800F392B5 /* iOSMultiPdfToImageUITests */,
+				FE576263289ECC1500F392B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE576263289ECC1500F392B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE576262289ECC1500F392B5 /* iOSMultiPdfToImage.app */,
+				FE57627B289ECC1800F392B5 /* iOSMultiPdfToImageTests.xctest */,
+				FE576285289ECC1800F392B5 /* iOSMultiPdfToImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE576264289ECC1500F392B5 /* iOSMultiPdfToImage */ = {
+			isa = PBXGroup;
+			children = (
+				FE576265289ECC1500F392B5 /* AppDelegate.swift */,
+				FE576267289ECC1500F392B5 /* SceneDelegate.swift */,
+				FE576269289ECC1500F392B5 /* ViewController.swift */,
+				FE57626B289ECC1500F392B5 /* Main.storyboard */,
+				FE576271289ECC1800F392B5 /* Assets.xcassets */,
+				FE576273289ECC1800F392B5 /* LaunchScreen.storyboard */,
+				FE576276289ECC1800F392B5 /* Info.plist */,
+				FE57626E289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodeld */,
+			);
+			path = iOSMultiPdfToImage;
+			sourceTree = "<group>";
+		};
+		FE57627E289ECC1800F392B5 /* iOSMultiPdfToImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE57627F289ECC1800F392B5 /* iOSMultiPdfToImageTests.swift */,
+			);
+			path = iOSMultiPdfToImageTests;
+			sourceTree = "<group>";
+		};
+		FE576288289ECC1800F392B5 /* iOSMultiPdfToImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE576289289ECC1800F392B5 /* iOSMultiPdfToImageUITests.swift */,
+				FE57628B289ECC1800F392B5 /* iOSMultiPdfToImageUITestsLaunchTests.swift */,
+			);
+			path = iOSMultiPdfToImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE576261289ECC1500F392B5 /* iOSMultiPdfToImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE57628F289ECC1800F392B5 /* Build configuration list for PBXNativeTarget "iOSMultiPdfToImage" */;
+			buildPhases = (
+				FE57625E289ECC1500F392B5 /* Sources */,
+				FE57625F289ECC1500F392B5 /* Frameworks */,
+				FE576260289ECC1500F392B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSMultiPdfToImage;
+			productName = iOSMultiPdfToImage;
+			productReference = FE576262289ECC1500F392B5 /* iOSMultiPdfToImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE57627A289ECC1800F392B5 /* iOSMultiPdfToImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE576292289ECC1800F392B5 /* Build configuration list for PBXNativeTarget "iOSMultiPdfToImageTests" */;
+			buildPhases = (
+				FE576277289ECC1800F392B5 /* Sources */,
+				FE576278289ECC1800F392B5 /* Frameworks */,
+				FE576279289ECC1800F392B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE57627D289ECC1800F392B5 /* PBXTargetDependency */,
+			);
+			name = iOSMultiPdfToImageTests;
+			productName = iOSMultiPdfToImageTests;
+			productReference = FE57627B289ECC1800F392B5 /* iOSMultiPdfToImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE576284289ECC1800F392B5 /* iOSMultiPdfToImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE576295289ECC1800F392B5 /* Build configuration list for PBXNativeTarget "iOSMultiPdfToImageUITests" */;
+			buildPhases = (
+				FE576281289ECC1800F392B5 /* Sources */,
+				FE576282289ECC1800F392B5 /* Frameworks */,
+				FE576283289ECC1800F392B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE576287289ECC1800F392B5 /* PBXTargetDependency */,
+			);
+			name = iOSMultiPdfToImageUITests;
+			productName = iOSMultiPdfToImageUITests;
+			productReference = FE576285289ECC1800F392B5 /* iOSMultiPdfToImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE57625A289ECC1500F392B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FE576261289ECC1500F392B5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FE57627A289ECC1800F392B5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FE576261289ECC1500F392B5;
+					};
+					FE576284289ECC1800F392B5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FE576261289ECC1500F392B5;
+					};
+				};
+			};
+			buildConfigurationList = FE57625D289ECC1500F392B5 /* Build configuration list for PBXProject "iOSMultiPdfToImage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE576259289ECC1500F392B5;
+			productRefGroup = FE576263289ECC1500F392B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE576261289ECC1500F392B5 /* iOSMultiPdfToImage */,
+				FE57627A289ECC1800F392B5 /* iOSMultiPdfToImageTests */,
+				FE576284289ECC1800F392B5 /* iOSMultiPdfToImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE576260289ECC1500F392B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE576275289ECC1800F392B5 /* LaunchScreen.storyboard in Resources */,
+				FE576272289ECC1800F392B5 /* Assets.xcassets in Resources */,
+				FE57626D289ECC1500F392B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE576279289ECC1800F392B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE576283289ECC1800F392B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE57625E289ECC1500F392B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE57626A289ECC1500F392B5 /* ViewController.swift in Sources */,
+				FE576270289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodeld in Sources */,
+				FE576266289ECC1500F392B5 /* AppDelegate.swift in Sources */,
+				FE576268289ECC1500F392B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE576277289ECC1800F392B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE576280289ECC1800F392B5 /* iOSMultiPdfToImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE576281289ECC1800F392B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE57628C289ECC1800F392B5 /* iOSMultiPdfToImageUITestsLaunchTests.swift in Sources */,
+				FE57628A289ECC1800F392B5 /* iOSMultiPdfToImageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE57627D289ECC1800F392B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE576261289ECC1500F392B5 /* iOSMultiPdfToImage */;
+			targetProxy = FE57627C289ECC1800F392B5 /* PBXContainerItemProxy */;
+		};
+		FE576287289ECC1800F392B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE576261289ECC1500F392B5 /* iOSMultiPdfToImage */;
+			targetProxy = FE576286289ECC1800F392B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE57626B289ECC1500F392B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE57626C289ECC1500F392B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE576273289ECC1800F392B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE576274289ECC1800F392B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE57628D289ECC1800F392B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE57628E289ECC1800F392B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE576290289ECC1800F392B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSMultiPdfToImage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KMC.iOSMultiPdfToImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE576291289ECC1800F392B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSMultiPdfToImage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KMC.iOSMultiPdfToImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE576293289ECC1800F392B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KMC.iOSMultiPdfToImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSMultiPdfToImage.app/iOSMultiPdfToImage";
+			};
+			name = Debug;
+		};
+		FE576294289ECC1800F392B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KMC.iOSMultiPdfToImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSMultiPdfToImage.app/iOSMultiPdfToImage";
+			};
+			name = Release;
+		};
+		FE576296289ECC1800F392B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KMC.iOSMultiPdfToImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSMultiPdfToImage;
+			};
+			name = Debug;
+		};
+		FE576297289ECC1800F392B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KMC.iOSMultiPdfToImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSMultiPdfToImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE57625D289ECC1500F392B5 /* Build configuration list for PBXProject "iOSMultiPdfToImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE57628D289ECC1800F392B5 /* Debug */,
+				FE57628E289ECC1800F392B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE57628F289ECC1800F392B5 /* Build configuration list for PBXNativeTarget "iOSMultiPdfToImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE576290289ECC1800F392B5 /* Debug */,
+				FE576291289ECC1800F392B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE576292289ECC1800F392B5 /* Build configuration list for PBXNativeTarget "iOSMultiPdfToImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE576293289ECC1800F392B5 /* Debug */,
+				FE576294289ECC1800F392B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE576295289ECC1800F392B5 /* Build configuration list for PBXNativeTarget "iOSMultiPdfToImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE576296289ECC1800F392B5 /* Debug */,
+				FE576297289ECC1800F392B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE57626E289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE57626F289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodel */,
+			);
+			currentVersion = FE57626F289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodel */;
+			path = iOSMultiPdfToImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE57625A289ECC1500F392B5 /* Project object */;
+}
