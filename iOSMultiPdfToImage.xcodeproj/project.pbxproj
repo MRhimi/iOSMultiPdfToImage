@@ -17,6 +17,7 @@
 		FE576280289ECC1800F392B5 /* iOSMultiPdfToImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE57627F289ECC1800F392B5 /* iOSMultiPdfToImageTests.swift */; };
 		FE57628A289ECC1800F392B5 /* iOSMultiPdfToImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE576289289ECC1800F392B5 /* iOSMultiPdfToImageUITests.swift */; };
 		FE57628C289ECC1800F392B5 /* iOSMultiPdfToImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE57628B289ECC1800F392B5 /* iOSMultiPdfToImageUITestsLaunchTests.swift */; };
+		FE576299289ED5FE00F392B5 /* Scanned-Docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FE576298289ED5FE00F392B5 /* Scanned-Docs.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FE576285289ECC1800F392B5 /* iOSMultiPdfToImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMultiPdfToImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE576289289ECC1800F392B5 /* iOSMultiPdfToImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMultiPdfToImageUITests.swift; sourceTree = "<group>"; };
 		FE57628B289ECC1800F392B5 /* iOSMultiPdfToImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMultiPdfToImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE576298289ED5FE00F392B5 /* Scanned-Docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Scanned-Docs.pdf"; path = "../../../Downloads/Scanned-Docs.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FE576269289ECC1500F392B5 /* ViewController.swift */,
 				FE57626B289ECC1500F392B5 /* Main.storyboard */,
 				FE576271289ECC1800F392B5 /* Assets.xcassets */,
+				FE576298289ED5FE00F392B5 /* Scanned-Docs.pdf */,
 				FE576273289ECC1800F392B5 /* LaunchScreen.storyboard */,
 				FE576276289ECC1800F392B5 /* Info.plist */,
 				FE57626E289ECC1500F392B5 /* iOSMultiPdfToImage.xcdatamodeld */,
@@ -236,6 +239,7 @@
 			files = (
 				FE576275289ECC1800F392B5 /* LaunchScreen.storyboard in Resources */,
 				FE576272289ECC1800F392B5 /* Assets.xcassets in Resources */,
+				FE576299289ED5FE00F392B5 /* Scanned-Docs.pdf in Resources */,
 				FE57626D289ECC1500F392B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
